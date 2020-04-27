@@ -15,5 +15,13 @@
   "bugs": {
     "url": "https://github.com/dennielcat666/Deliver-Website/issues"
   },
-  "homepage": "https://github.com/dennielcat666/Deliver-Website#readme"
+  "homepage": "https://github.com/dennielcat666/Deliver-Website#readme",
+  "devDependencies": {
+    "grunt": "^1.1.0",
+    "grunt-contrib-concat": "^1.0.1",
+    "grunt-contrib-cssmin": "^3.0.0",
+    "grunt-contrib-sass": "^1.0.0",
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt-contrib-watch": "^1.1.0"
+  }
 }
