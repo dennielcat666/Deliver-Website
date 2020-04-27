@@ -1,0 +1,28 @@
+
+
+// SASS SETTINGS
+
+$grid-columns:      12;
+$grid-gutter-width: 15px;   //паддинг
+
+$grid-breakpoints: (
+  // Extra small screen / phone
+  xs: 0,
+  // Small screen / phone
+  sm: 320px,
+  // Medium screen / tablet
+  md: 768px,
+  // Large screen / desktop
+  lg: 1160px,
+  // Extra large screen / wide desktop
+  xl: 1160px
+);
+
+$container-max-widths: (
+  sm: 340px,
+  md: 788px,
+  lg: 1175px,
+  xl: 1175px
+);
+
+// SASS SETTINGS

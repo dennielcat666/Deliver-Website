@@ -23,5 +23,10 @@
     "grunt-contrib-sass": "^1.0.0",
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1",
+    "bootstrap-4-grid": "^3.4.0",
+    "owl.carousel": "^2.3.4"
   }
 }
