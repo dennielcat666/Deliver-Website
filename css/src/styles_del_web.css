@@ -3549,4 +3549,9 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
 /*# sourceMappingURL=styles_del_web.css.map */
