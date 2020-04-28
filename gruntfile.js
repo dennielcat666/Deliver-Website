@@ -6,8 +6,8 @@ module.exports = function(grunt) {
                 separator: ';'
             },
             dist: {
-                src: ['js/src/*.js'],
-                dest: 'js/dist/scriptExamJS.main.js'
+                src: ['./src/js/*.js'],
+                dest: '.dist/js/script_dev_web.main.js'
             }
         },
         concatCSS: {
@@ -15,7 +15,7 @@ module.exports = function(grunt) {
                 separator: ';'
             },
             dist: {
-                src: ['css/src/*.css'],
+                src: ['/dist/css/*.css'],
                 dest: 'css/dist/styleExamJS.main.css'
             }
         }, */
@@ -23,23 +23,23 @@ module.exports = function(grunt) {
             dist: {
                 files: [{
                     expand: true,
-                    cwd: './sass',
+                    cwd: './src/sass',
                     src: ['*.scss'],
-                    dest: './css/src',
+                    dest: './dist/css/',
                     ext: '.css'
                 }]
             }
         },
         watch: {
             sass: {
-                files: ['./sass/*.scss'],
+                files: ['./src/sass/*.scss'],
                 tasks: ['sass'],
             }
         }, 
         /* uglify: {
             dist: {
-                src: ['js/dist/scriptExamJS.main.js'],
-                dest: 'js/dist/scriptExamJS.main.min.js'
+                src: ['./src/js/script_dev_web.main.js'],
+                dest: './dist/js/script_dev_web.main.min.js'
             }
         },
         cssmin: {
