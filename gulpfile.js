@@ -7,7 +7,7 @@ const sass = require('gulp-sass');
 sass.compiler = require('node-sass');
 
 
-gulp.task('sass', function (cb) {
+gulp.task('dev', function (cb) {
     
     /* gulp.src('./src/js/*.js')
         .pipe(concat('bundle.js'))
@@ -19,18 +19,12 @@ gulp.task('sass', function (cb) {
     
     gulp.src('./src/sass/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(gulp.dest('./dist/css'));
-
-    /* gulp.src('./dist/css/*.css')
         .pipe(concat('main.css'))
-        .pipe(gulp.dest('./dist/css/'));
-
-    gulp.src('./dist/css/main.css')
-        .pipe(uglifycss({
+  /*       .pipe(uglifycss({
             "maxLineLen": 20,
             "uglyComments": true
-        }))
-        .pipe(gulp.dest('./dist/css/')); */
+        })) */
+        .pipe(gulp.dest('./dist/css'));
 
     /* gulp.task('sass:watch', function (cb) {
         gulp.watch('./src/sass/*.scss', ['sass']);
