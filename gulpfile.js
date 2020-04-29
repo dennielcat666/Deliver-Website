@@ -3,6 +3,7 @@ const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const uglifycss = require('gulp-uglifycss');
 const sass = require('gulp-sass');
+const watch = require('gulp-watch');
 
 sass.compiler = require('node-sass');
 
@@ -31,9 +32,6 @@ gulp.task('dev', function (cb) {
     }); */
     cb();
   });
-
-
-
 
  
     /* gulp.task('scripts', function(cb) {
