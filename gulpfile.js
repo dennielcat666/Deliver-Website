@@ -19,7 +19,7 @@ gulp.task('dev', function (cb) {
     
     gulp.src('./src/sass/*.scss')
         .pipe(sass().on('error', sass.logError))
-        .pipe(concat('main.css'))
+        /* .pipe(concat('main.css')) */
   /*       .pipe(uglifycss({
             "maxLineLen": 20,
             "uglyComments": true
