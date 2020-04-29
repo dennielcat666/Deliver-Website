@@ -1,0 +1,83 @@
+@import './variables.scss';
+@import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
+
+.wrapper {
+    padding-top: 6px;
+    padding-bottom: 6px;
+    background-color: $red;
+}
+
+.wrapper_box {
+
+}
+
+.select {
+    position: relative;
+}
+
+.language_selection {
+    border: none;
+    font-size: 14px;
+    font-family: $PoppinsRegular;
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем дефолнтные стрелочки */
+    background-color: $red;
+    color: #fff;
+    padding: 5px 10px;
+   /*  background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 10px 15px;
+    background-position: calc(100% - 10px) 50%; */
+    line-height: 2;
+    outline: none;
+}
+
+.language_selection::after {
+    content: '';
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-top: -3px;
+}
+
+.contact {
+    position: relative;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.top_wrapper_link {
+    display: flex;
+    text-decoration: none;
+    color: #fff;
+    font-family: $PoppinsRegular;
+    font-size: 14px;
+    align-items: center;
+    background-image: url(../img/clan-group.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 17px;
+    background-position: 10px 50%;
+    padding: 0px 32px;
+}
+
+.profile_selection {
+    border: none;
+    font-size: 14px;
+    font-family: $PoppinsRegular;
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем дефолнтные стрелочки */
+    background-color: $red;
+    color: #fff;
+    padding: 5px 10px;
+    /* background-image: url(../img/clan-group.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 17px;
+    background-position: calc(100% - 10px) 50%; */
+    line-height: 2;
+    outline: none;
+}
