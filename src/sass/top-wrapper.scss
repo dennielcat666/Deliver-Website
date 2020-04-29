@@ -1,0 +1,43 @@
+@import './variables.scss';
+
+
+.top_wrapper {
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: $red;
+}
+
+.wrapper_box {
+
+}
+
+.select {
+    position: relative;
+}
+
+.language_selection {
+    border: none;
+    font-size: 14px;
+    font-family: $PoppinsRegular;
+    -webkit-appearance: none;/* Chrome */
+    -moz-appearance: none;/* Firefox */
+    appearance: none;/* убираем дефолнтные стрелочки */
+    background-color: $red;
+    color: #fff;
+    padding: 5px 10px;
+    background-image: url(../img/arrow.svg);
+    background-repeat: no-repeat;
+    background-size: 10px 15px;
+    background-position: calc(100% - 10px) 50%;
+}
+
+/* .language_selection::after {
+    content: '\2228';
+    display: block;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    z-index: 1;
+    margin-top: -3px;
+} */

@@ -46,3 +46,21 @@
   src: url("../fonts/poppins-regular-webfont.woff2") format("woff2"), url("../fonts/poppins-regular-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
+
+@font-face {
+  font-family: 'Font Awesome Brands 400';
+  src: url("../fonts/font_awesome_5_brands-regular-400-webfont.woff2") format("woff2"), url("../fonts/font_awesome_5_brands-regular-400-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Font Awesome Free 400';
+  src: url("../fonts/font_awesome_5_free-regular-400-webfont.woff2") format("woff2"), url("../fonts/font_awesome_5_free-regular-400-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Font Awesome Solid 900';
+  src: url("../fonts/font_awesome_5_free-solid-900-webfont.woff2") format("woff2"), url("../fonts/font_awesome_5_free-solid-900-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
