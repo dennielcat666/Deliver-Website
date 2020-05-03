@@ -24,17 +24,25 @@
 .menu_item {
     margin-right: 25px;
     margin-left: 45px;
-    padding-top: 55px;
-    padding-bottom: 51px;
+/*     padding-top: 55px;
+    padding-bottom: 51px; */
     display: flex;
     justify-content: space-around;
 }
 
 .menu_link {
+    padding-top: 55px;
+    padding-bottom: 47px;
     font-family: $PoppinsMedium;
     font-size: 14px;
     text-transform: uppercase;
     color: $red;
+    border-bottom: 4px solid $yellow;
+}
+
+.menu_link:hover {
+    border-bottom: 4px solid $red;
+    font-family: $PoppinsBold;
 }
 
 .search {
