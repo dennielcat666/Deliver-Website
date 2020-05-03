@@ -1,7 +1,9 @@
-@import './fonts.scss';
+@import './font-awesome/font-awesome.scss';
+@import './fonts';
 /* @import './variables.scss'; */
 /* @import '../../node_modules/bootstrap-4-grid/scss/grid.scss'; */
-@import '../../node_modules/owl.carousel/dist/assets/owl.carousel.min.css';
-@import '../../node_modules/owl.carousel/dist/assets/owl.theme.default.min.css';
+@import '../../node_modules/owl.carousel/src/scss/owl.carousel.scss';
+@import '../../node_modules/owl.carousel/src/scss/owl.theme.default.scss';
 @import './zeroing.scss';
 @import './wrapper.scss';
+@import './menu.scss';

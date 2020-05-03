@@ -1,4 +1,5 @@
 @charset "UTF-8";
+/* @import './font-awesome/font-awesome.scss'; */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2903,10 +2904,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-family: "Poppins Regular", sans-serif;
   font-size: 14px;
   align-items: center;
-  background-image: url(../img/clan-group.svg);
-  background-repeat: no-repeat;
-  background-size: 15px 17px;
-  background-position: 10px 50%;
+  /* background-image: url(../img/clan-group.svg);
+    background-repeat: no-repeat;
+    background-size: 15px 17px;
+    background-position: 10px 50%; */
   padding: 0px 32px; }
 
 .profile_selection {

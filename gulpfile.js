@@ -7,18 +7,53 @@ const watch = require('gulp-watch');
 
 sass.compiler = require('node-sass');
 
+// function dev (cb) {
 
-gulp.task('dev', function (cb) {
+//     gulp.src('./src/fonts/*')
+//         .pipe(gulp.dest('./dist/fonts/'));
+
+//     gulp.src('./src/*.html')
+//         .pipe(gulp.dest('./dist/'));
+
+//     gulp.src('./src/img/**/*')
+//         .pipe(gulp.dest('./dist/img/'));
+    
+//     /* gulp.src('./src/js/*.js')
+//         .pipe(concat('bundle.js'))
+//          .pipe(uglify())
+//         .pipe(gulp.dest('./dist/js/')); */
+    
+//     gulp.src('./src/sass/**/*.scss')
+//         .pipe(sass().on('error', sass.logError))
+//         /* .pipe(concat('main.css')) */
+//   /*       .pipe(uglifycss({
+//             "maxLineLen": 20,
+//             "uglyComments": true
+//         })) */
+//         .pipe(gulp.dest('./dist/css'));
+//     cb();
+//   }
+
+//   gulp.task('dev', dev);
+
+
+gulp.task('dev', function dev (cb) {
+
+    gulp.src('./src/fonts/*')
+        .pipe(gulp.dest('./dist/fonts/'));
+
+    gulp.src('./src/*.html')
+        .pipe(gulp.dest('./dist/'));
+
+    gulp.src('./src/img/**/*')
+        .pipe(gulp.dest('./dist/img/'));
     
     /* gulp.src('./src/js/*.js')
         .pipe(concat('bundle.js'))
-        .pipe(gulp.dest('./dist/js/')); */
-
-    /* gulp.src('./dist/js/bundle.js')
-        .pipe(uglify())
+         .pipe(uglify())
         .pipe(gulp.dest('./dist/js/')); */
     
-    gulp.src('./src/sass/*.scss')
+    gulp.src('./src/sass/**/*.scss')
         .pipe(sass().on('error', sass.logError))
         /* .pipe(concat('main.css')) */
   /*       .pipe(uglifycss({
@@ -26,12 +61,14 @@ gulp.task('dev', function (cb) {
             "uglyComments": true
         })) */
         .pipe(gulp.dest('./dist/css'));
-
-    /* gulp.task('sass:watch', function (cb) {
-        gulp.watch('./src/sass/*.scss', ['sass']);
-    }); */
     cb();
   });
+
+
+
+    gulp.task('watch', function (cb) {
+        gulp.watch('./src/**/*', gulp.task('dev'));
+    }); 
 
  
     /* gulp.task('scripts', function(cb) {
