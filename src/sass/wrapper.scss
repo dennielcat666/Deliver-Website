@@ -19,7 +19,7 @@
 .language_selection {
     border: none;
     font-size: 14px;
-    font-family: $PoppinsRegular;
+    font-weight: 400;
     -webkit-appearance: none;/* Chrome */
     -moz-appearance: none;/* Firefox */
     appearance: none;/* убираем дефолнтные стрелочки */
@@ -55,7 +55,7 @@
     display: flex;
     text-decoration: none;
     color: #fff;
-    font-family: $PoppinsRegular;
+    font-weight: 400;
     font-size: 14px;
     align-items: center;
     /* background-image: url(../img/clan-group.svg);
@@ -68,7 +68,7 @@
 .profile_selection {
     border: none;
     font-size: 14px;
-    font-family: $PoppinsRegular;
+    font-weight: 400;
     -webkit-appearance: none;/* Chrome */
     -moz-appearance: none;/* Firefox */
     appearance: none;/* убираем дефолнтные стрелочки */

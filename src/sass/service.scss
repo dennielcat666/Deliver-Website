@@ -6,13 +6,108 @@
 }
 
 .service_box {
-
+    margin-top: 133px;
+    padding-left: 10px;
+    padding-bottom: 98px;
 }
 
 .service_box_name {
+    font-weight: 700;
+    color: $red;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
 
+.service_block {
+    margin-top: 105px;
 }
 
 .service_card {
-    
+
+}
+
+.service_card_img {
+
+}
+
+.service_card_name {
+    margin-top: 25px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    color: $red;
+    letter-spacing: 1px;
+}
+
+.service_card_info {
+    font-size: 16px;
+    margin-top: 15px;
+    color: $gray;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+}
+
+.service_card_link {
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 16px;
+    color: $black;
+    letter-spacing: 1px;
+}
+
+.fa-caret-right {
+    color: $red;
+}
+
+.service_select_block {
+    background-color: $red;
+    color: #fff;
+    margin-left: 9px;
+    padding: 30px;
+    /* padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 30px; */
+}
+
+.service_select_name {
+    font-weight: 700;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.service_select_name::after {
+    content: '';
+    margin-top: 26px;
+    max-width: 69px;
+    border-top: 2px solid $yellow;
+    display: block;
+}
+
+.service_select_info {
+    margin-top: 26px;
+    letter-spacing: 0.5px;
+    line-height: 25px;
+    font-size: 16px;
+}
+
+.service_select {
+    margin-top: 36px;
+    /* max-width: 210px; */
+    background-color: $darkRed;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    padding: 15px 15px;
+    letter-spacing: 1.5px;
+}
+
+.service_select_link {
+    margin-top: 20px;
+    font-weight: 700;
+    color: $red;
+    font-size: 12px;
+    text-transform: uppercase;
+    padding: 19px 49px;
+    background-color: $yellow;
+    border-radius: 25px;
 }

@@ -3,8 +3,6 @@
 @import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
 
 .menu {
-    /* padding-top: 37px;
-    padding-bottom: 37px; */
     background-color: $yellow;
 }
 
@@ -33,16 +31,19 @@
 .menu_link {
     padding-top: 55px;
     padding-bottom: 47px;
-    font-family: $PoppinsMedium;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-weight: 500;
     font-size: 14px;
     text-transform: uppercase;
     color: $red;
     border-bottom: 4px solid $yellow;
+    box-sizing: border-box;
 }
 
 .menu_link:hover {
     border-bottom: 4px solid $red;
-    font-family: $PoppinsBold;
+    font-weight: 700;
 }
 
 .search {

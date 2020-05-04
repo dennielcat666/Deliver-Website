@@ -2865,7 +2865,7 @@ a.text-dark:hover, a.text-dark:focus {
 .language_selection {
   border: none;
   font-size: 14px;
-  font-family: "Poppins Regular", sans-serif;
+  font-weight: 400;
   -webkit-appearance: none;
   /* Chrome */
   -moz-appearance: none;
@@ -2901,7 +2901,7 @@ a.text-dark:hover, a.text-dark:focus {
   display: flex;
   text-decoration: none;
   color: #fff;
-  font-family: "Poppins Regular", sans-serif;
+  font-weight: 400;
   font-size: 14px;
   align-items: center;
   /* background-image: url(../img/clan-group.svg);
@@ -2913,7 +2913,7 @@ a.text-dark:hover, a.text-dark:focus {
 .profile_selection {
   border: none;
   font-size: 14px;
-  font-family: "Poppins Regular", sans-serif;
+  font-weight: 400;
   -webkit-appearance: none;
   /* Chrome */
   -moz-appearance: none;
