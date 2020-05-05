@@ -8,6 +8,7 @@
     background-size: cover;
     min-height: 800px;
     background-position: 50%;
+    padding-top: 174px;
 }
 
 .banner::before {
@@ -24,8 +25,9 @@
 .banner_box {
     position: relative;
     z-index: 2;
-    padding-top: 174px;
-    padding-left: 10px;
+    /* padding-top: 174px; */
+    /* padding-left: 10px;
+    padding-right: 10px; */
 }
 
 .banner_slog {

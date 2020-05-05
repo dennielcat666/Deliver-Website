@@ -2,30 +2,51 @@
 @import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
 
 .delivery {
-    
+    padding-bottom: 94px;
+    padding-top: 309px;
 }
 
 .delivery_box {
-    margin-top: 500px
+
 }
 
 .tabs {
-
+    background-color: $red;
 }
 
 .tabs_links {
-
+    display: flex;
+    justify-content: space-between;
 }
 
-.tabs_links_title {
+.tabs_link_title {
+    text-align: center;
+    flex: 1 0 auto;
+    background-color: $yellow;
+    box-shadow: 0px 5px 15px rgba(255,204,0,0.5);
+    color: $red;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 18px 15px;
+    letter-spacing: 2px;
+}
 
+.tabs_link_title.tabs_link--active {
+    background-color: $red;
+    color: white;
+    box-shadow: none;
 }
 
 .tabs_blocks {
-
+    padding: 40px;
 }
 
 .tabs_blocks_content {
+    display: none;
+}
+
+.accordion_block {
 
 }
 
@@ -33,34 +54,114 @@
 
 }
 
-.accordion_caption {
+.accordion_panel:not(:first-child) {
+    margin-top: 20px;
+}
 
+.accordion_caption {
+    border: 2px solid #fff;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+}
+
+.accordion_caption--active {
+    background-color: $yellow;
+    font-weight: 700;
+    color: $red;
+    border: none
+}
+
+.accordion_caption_pad {
+    padding: 16px 20px 16px 20px;
+}
+
+.fa-angle-down {
+    font-size: 16px;
+    border-left: 2px solid #fff;
+    padding: 14px 19px 14px 19px;
+}
+
+.fa-angle-up{
+    font-size: 16px;
+    padding: 14px 19px 14px 19px;
+    border-left: 2px solid $red;
+    color: $red;
 }
 
 .sub_text {
+    display: none;
+    padding: 23px 23px 23px 23px;
+    border-bottom: 2px solid $yellow;
+    border-left: 2px solid $yellow;
+    border-right: 2px solid $yellow;
+    background-color: $darkRed;
+}
 
+.visible {
+    display: block;
 }
 
 .sub_text_name {
-
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 2px;
 }
 
 .sub_text_list {
-
+    margin-top: 20px;
 }
 
 .sub_text_item {
-
+    color: #fff;
+    font-size: 16px;
+    font-weight: 400;
+}
+.sub_text_item:not(:first-child) {
+    margin-top: 5px;
 }
 
 .sub_text_item .fa-caret-right {
     color: $yellow;
+    margin-right: 10px;
 }
 
 .sub_form {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .sub_form_input {
+    height: 40px;
+    background-color: $red;
+    color: $yellow;
+    font-weight: 400;
+    border: 1px solid $yellow;
+    padding-left: 10px;
+    padding-right: 10px;
+
+    &::-webkit-input-placeholder {
+        color: $yellow;
+    }
+    &:-moz-placeholder {
+        color: $yellow;
+    }
+    &::-moz-placeholder {
+        color: $yellow;
+    }
+    &:-ms-input-placeholder {
+        color: $yellow;
+    }
+}
+
+.sub_form_input:not(:first-child) {
+    margin-top: 10px;
+}
+
+.team {
     
 }

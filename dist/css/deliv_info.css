@@ -2852,91 +2852,29 @@ a.text-dark:hover, a.text-dark:focus {
 .invisible {
   visibility: hidden !important; }
 
-.service {
-  padding-top: 133px;
-  padding-bottom: 97px; }
+.deliv_info {
+  padding-top: 97px;
+  padding-bottom: 96px;
+  background-color: #ba0000; }
 
-.service_box {
-  /* margin-top: 133px; */
-  /* padding-bottom: 97px; */ }
-
-.service_box_name {
+.deliv_info_name {
   font-weight: 700;
-  color: #ba0000;
-  font-size: 50px;
-  letter-spacing: 2px; }
-
-.service_block {
-  margin-top: 105px; }
-
-.service_card_name {
-  margin-top: 25px;
   text-transform: uppercase;
-  font-weight: 700;
-  font-size: 20px;
-  color: #ba0000;
-  letter-spacing: 1px; }
-
-.service_card_info {
-  font-size: 16px;
-  margin-top: 15px;
-  color: #777777;
-  letter-spacing: 0.5px;
-  line-height: 24px; }
-
-.service_card_link {
-  font-size: 16px;
-  font-weight: 700;
-  margin-top: 16px;
-  color: #222222;
-  letter-spacing: 1px; }
-
-.fa-caret-right {
-  color: #ba0000; }
-
-.service_select_block {
-  background-color: #ba0000;
+  font-size: 30px;
   color: #fff;
-  margin-left: 9px;
-  padding: 30px;
-  /* padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px; */ }
-
-.service_select_name {
-  font-weight: 700;
-  font-size: 20px;
-  letter-spacing: 1px; }
-
-.service_select_name::after {
-  content: '';
-  margin-top: 26px;
-  max-width: 69px;
-  border-top: 2px solid #ffcc00;
-  display: block; }
-
-.service_select_info {
-  margin-top: 26px;
-  letter-spacing: 0.5px;
-  line-height: 25px;
-  font-size: 16px; }
-
-.service_select {
-  margin-top: 36px;
-  /* max-width: 210px; */
-  background-color: #9d0000;
-  border: none;
-  color: #fff;
-  font-size: 16px;
-  padding: 15px 15px;
   letter-spacing: 1.5px; }
 
-.service_select_link {
-  margin-top: 20px;
-  font-weight: 700;
-  color: #ba0000;
-  font-size: 12px;
+.deliv_info_text {
+  color: #fff;
+  font-size: 16px;
+  margin-top: 35px;
+  line-height: 23px; }
+
+.deliv_info_link {
+  letter-spacing: 1px;
   text-transform: uppercase;
-  padding: 19px 49px;
-  background-color: #ffcc00;
-  border-radius: 25px; }
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  background-color: #9d0000;
+  padding: 20px 30px 20px 30px; }

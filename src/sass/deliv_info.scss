@@ -1,0 +1,41 @@
+@import './variables.scss';
+@import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
+
+.deliv_info {
+    padding-top: 97px;
+    padding-bottom: 96px;
+    background-color: $red;
+}
+
+.deliv_info_box {
+
+}
+
+.deliv_info_name {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    letter-spacing: 1.5px;
+}
+
+.deliv_info_content {
+
+}
+
+.deliv_info_text {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 35px;
+    line-height: 23px;
+}
+
+.deliv_info_link {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    background-color: $darkRed;
+    padding: 20px 30px 20px 30px;
+}

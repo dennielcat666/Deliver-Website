@@ -2875,6 +2875,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #ba0000;
   color: #fff;
   padding: 5px 10px;
+  margin-left: -10px;
   /*  background-image: url(../img/arrow.svg);
     background-repeat: no-repeat;
     background-size: 10px 15px;

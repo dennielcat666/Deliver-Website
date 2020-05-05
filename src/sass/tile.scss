@@ -1,0 +1,21 @@
+@import './variables.scss';
+@import '../../node_modules/bootstrap-4-grid/scss/grid.scss';
+
+.tile {
+    padding-top: 70px;
+    padding-bottom: 67px;
+}
+
+.tile_box {
+
+}
+
+.title_img {
+    height: 129px;
+    width: 100%;
+    border: 2px solid rgba($color: $red, $alpha: 0.1);
+}
+
+.title_img:hover {
+    border: 2px solid $red;
+}
