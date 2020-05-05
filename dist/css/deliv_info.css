@@ -2877,4 +2877,5 @@ a.text-dark:hover, a.text-dark:focus {
   font-size: 12px;
   font-weight: 700;
   background-color: #9d0000;
-  padding: 20px 30px 20px 30px; }
+  padding: 20px 30px 20px 30px;
+  border-radius: 25px; }
