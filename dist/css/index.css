@@ -20156,6 +20156,9 @@ a.text-dark:hover, a.text-dark:focus {
 .tabs_blocks_content {
   display: none; }
 
+.visible {
+  display: block; }
+
 .accordion_panel:not(:first-child) {
   margin-top: 20px; }
 
@@ -20188,6 +20191,12 @@ a.text-dark:hover, a.text-dark:focus {
   border-left: 2px solid #ba0000;
   color: #ba0000; }
 
+.accordion_caption--active .fa-angle-down {
+  transform: rotateX(180deg); }
+
+.accordion_caption--active + .sub_text {
+  display: block; }
+
 .sub_text {
   display: none;
   padding: 23px 23px 23px 23px;
@@ -20195,9 +20204,6 @@ a.text-dark:hover, a.text-dark:focus {
   border-left: 2px solid #ffcc00;
   border-right: 2px solid #ffcc00;
   background-color: #9d0000; }
-
-.visible {
-  display: block; }
 
 .sub_text_name {
   font-weight: 700;

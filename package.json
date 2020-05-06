@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/dennielcat666/Deliver-Website#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
     "grunt": "^1.1.0",
     "grunt-contrib-concat": "^1.0.1",
     "grunt-contrib-cssmin": "^3.0.0",
@@ -24,6 +26,7 @@
     "grunt-contrib-uglify": "^4.0.1",
     "grunt-contrib-watch": "^1.1.0",
     "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-concat": "^2.6.1",
     "gulp-concat-css": "^3.1.0",
     "gulp-sass": "^4.1.0",
@@ -35,6 +38,7 @@
     "bootstrap": "^4.4.1",
     "bootstrap-4-grid": "^3.4.0",
     "gulp-uglifycss": "^1.1.0",
+    "jquery": "^3.5.1",
     "owl.carousel": "^2.3.4"
   }
 }
