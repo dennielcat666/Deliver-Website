@@ -2863,8 +2863,6 @@ a.text-dark:hover, a.text-dark:focus {
 .menu_item {
   margin-right: 25px;
   margin-left: 45px;
-  /*     padding-top: 55px;
-    padding-bottom: 51px; */
   display: flex;
   justify-content: space-around; }
 
@@ -2897,7 +2895,6 @@ a.text-dark:hover, a.text-dark:focus {
   border-radius: 50%; }
 
 .search_text {
-  /* display: none; */
   width: 100%;
   background-color: #ba0000;
   color: #fff;
@@ -2918,5 +2915,4 @@ a.text-dark:hover, a.text-dark:focus {
   color: #fff;
   border-radius: 50%;
   background-color: #ba0000;
-  /* box-shadow: 0 5px 15px rgba(186,0,0,0.5); */
   border: none; }

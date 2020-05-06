@@ -2856,10 +2856,6 @@ a.text-dark:hover, a.text-dark:focus {
   padding-top: 133px;
   padding-bottom: 97px; }
 
-.service_box {
-  /* margin-top: 133px; */
-  /* padding-bottom: 97px; */ }
-
 .service_box_name {
   font-weight: 700;
   color: #ba0000;
@@ -2898,10 +2894,7 @@ a.text-dark:hover, a.text-dark:focus {
   background-color: #ba0000;
   color: #fff;
   margin-left: 9px;
-  padding: 30px;
-  /* padding-top: 30px;
-    padding-bottom: 30px;
-    padding-left: 30px; */ }
+  padding: 30px; }
 
 .service_select_name {
   font-weight: 700;
@@ -2923,7 +2916,6 @@ a.text-dark:hover, a.text-dark:focus {
 
 .service_select {
   margin-top: 36px;
-  /* max-width: 210px; */
   background-color: #9d0000;
   border: none;
   color: #fff;

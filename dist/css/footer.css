@@ -2851,3 +2851,56 @@ a.text-dark:hover, a.text-dark:focus {
 
 .invisible {
   visibility: hidden !important; }
+
+.footer {
+  position: relative; }
+
+.footer_box {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  background-color: #fff;
+  padding-top: 59px;
+  padding-bottom: 87px; }
+
+.footer::before, .footer::after {
+  content: '';
+  background-repeat: no-repeat;
+  width: 415px;
+  height: 100%;
+  position: absolute;
+  top: 0px; }
+
+.footer::before {
+  background-image: url(../img/footer_img_red.png);
+  left: 0px; }
+
+.footer::after {
+  background-image: url(../img/footer_img_yellow.png);
+  right: 0px; }
+
+.footer_column_name {
+  color: #ba0000;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px; }
+
+.footer_list {
+  margin-top: 33px; }
+
+.footer_list_item {
+  margin-top: 8px; }
+
+.footer_list_link {
+  text-transform: uppercase;
+  color: #777777;
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px; }
+
+.footer_list_link:hover {
+  color: #ffcc00; }
+
+.footer_list_link--hover_blue:hover {
+  color: #017edf; }

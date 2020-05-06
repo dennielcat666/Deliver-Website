@@ -5,25 +5,14 @@
 .menu {
     background-color: $yellow;
 }
-
-.menu_box {
-    
-}
-
 .align-items-center {
     display: flex;
     align-items: center;
 }
 
-.logo {
-
-}
-
 .menu_item {
     margin-right: 25px;
     margin-left: 45px;
-/*     padding-top: 55px;
-    padding-bottom: 51px; */
     display: flex;
     justify-content: space-around;
 }
@@ -62,7 +51,6 @@
 }
 
 .search_text {
-    /* display: none; */
     width: 100%;
     background-color: $red;
     color: #fff;
@@ -84,6 +72,5 @@
     color: #fff;
     border-radius: 50%;
     background-color: $red;
-    /* box-shadow: 0 5px 15px rgba(186,0,0,0.5); */
     border: none;
 }

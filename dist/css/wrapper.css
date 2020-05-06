@@ -1,5 +1,4 @@
 @charset "UTF-8";
-/* @import './font-awesome/font-awesome.scss'; */
 .sr-only {
   position: absolute;
   width: 1px;
@@ -2862,6 +2861,16 @@ a.text-dark:hover, a.text-dark:focus {
 .select {
   position: relative; }
 
+.select .fa-angle-down {
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  transform: translateY(-50%);
+  color: #fff;
+  font-size: 14px;
+  border: none;
+  padding: 0px 0px 0px 0px; }
+
 .language_selection {
   border: none;
   font-size: 14px;
@@ -2872,26 +2881,19 @@ a.text-dark:hover, a.text-dark:focus {
   /* Firefox */
   appearance: none;
   /* убираем дефолнтные стрелочки */
-  background-color: #ba0000;
+  background-color: transparent;
   color: #fff;
-  padding: 5px 10px;
-  margin-left: -10px;
-  /*  background-image: url(../img/arrow.svg);
-    background-repeat: no-repeat;
-    background-size: 10px 15px;
-    background-position: calc(100% - 10px) 50%; */
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 20px;
   line-height: 2;
-  outline: none; }
+  outline: none;
+  position: relative;
+  z-index: 3; }
 
-.language_selection::after {
-  content: '';
-  display: block;
-  pointer-events: none;
-  position: absolute;
-  top: 50%;
-  right: 0;
-  z-index: 1;
-  margin-top: -3px; }
+.language_selection option {
+  background-color: #ba0000;
+  border: none; }
 
 .contact {
   position: relative;
@@ -2905,11 +2907,10 @@ a.text-dark:hover, a.text-dark:focus {
   font-weight: 400;
   font-size: 14px;
   align-items: center;
-  /* background-image: url(../img/clan-group.svg);
-    background-repeat: no-repeat;
-    background-size: 15px 17px;
-    background-position: 10px 50%; */
-  padding: 0px 32px; }
+  padding: 0px 25px; }
+
+.fa-users {
+  margin-right: 9px; }
 
 .profile_selection {
   border: none;
@@ -2921,12 +2922,17 @@ a.text-dark:hover, a.text-dark:focus {
   /* Firefox */
   appearance: none;
   /* убираем дефолнтные стрелочки */
-  background-color: #ba0000;
+  background-color: transparent;
   color: #fff;
-  padding: 5px 10px;
-  /* background-image: url(../img/clan-group.svg);
-    background-repeat: no-repeat;
-    background-size: 15px 17px;
-    background-position: calc(100% - 10px) 50%; */
+  padding-bottom: 5px;
+  padding-top: 5px;
+  padding-right: 20px;
   line-height: 2;
-  outline: none; }
+  outline: none;
+  letter-spacing: 1px;
+  position: relative;
+  z-index: 3; }
+
+.profile_selection option {
+  background-color: #ba0000;
+  border: none; }

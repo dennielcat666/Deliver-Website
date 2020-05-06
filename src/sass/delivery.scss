@@ -6,10 +6,6 @@
     padding-top: 309px;
 }
 
-.delivery_box {
-
-}
-
 .tabs {
     background-color: $red;
 }
@@ -44,14 +40,6 @@
 
 .tabs_blocks_content {
     display: none;
-}
-
-.accordion_block {
-
-}
-
-.accordion_panel {
-
 }
 
 .accordion_panel:not(:first-child) {
@@ -160,8 +148,4 @@
 
 .sub_form_input:not(:first-child) {
     margin-top: 10px;
-}
-
-.team {
-    
 }
