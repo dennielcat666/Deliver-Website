@@ -1,1 +1,53 @@
-"use strict";$(function(){var n=$(".tabs_link_title"),i=$(".tabs_blocks_content");console.log("$tabsBlocksContent",i),console.log("$tabsLinksTitle",n),n.each(function(o){$(this).on("click",function(t){t.preventDefault(),i.hide(),n.removeClass("tabs_link--active"),$(this).addClass("tabs_link--active"),i.each(function(t){console.log({item:$(this),indexContent:t}),o===t&&$(this).show()})})});var t=$(".accordion_caption");console.log(t),t.on("click",function(){$(this).toggleClass("accordion_caption--active")})});
+"use strict";
+
+$(function () {
+  var $searchTxt = $('.search_text');
+  var $searchBtn = $('.search_button');
+  console.log('$searchTxt', $searchTxt);
+  console.log('$searchBtn', $searchBtn);
+  $searchBtn.on('click', function (e) {
+    e.preventDefault();
+    $searchTxt.removeClass('hidden');
+    $searchBtn.on('click', function (e) {
+      e.preventDefault();
+      var $inputTxt = $searchTxt.val();
+      console.log('$inputTxt', $inputTxt);
+    });
+    $searchBtn.dblclick(function () {
+      $searchTxt.val('');
+      $searchTxt.addClass('hidden');
+    });
+  });
+  var $tabsLinksTitle = $('.tabs_link_title');
+  var $tabsBlocksContent = $('.tabs_blocks_content');
+  /* console.log('$tabsBlocksContent', $tabsBlocksContent);
+  console.log('$tabsLinksTitle', $tabsLinksTitle); */
+
+  $tabsLinksTitle.each(function (index) {
+    $(this).on('click', function (e) {
+      e.preventDefault();
+      $tabsBlocksContent.hide();
+      $tabsLinksTitle.removeClass('tabs_link--active');
+      $(this).addClass('tabs_link--active');
+      $tabsBlocksContent.each(function (indexContent) {
+        console.log({
+          item: $(this),
+          indexContent: indexContent
+        });
+
+        if (index === indexContent) {
+          $(this).show();
+        }
+      }); // $tabsLinksTitle.each(function (indexTitle) {
+      //     if (index === indexTitle) {
+      //         $(this).addClass('tabs_link--active');
+      //     }
+      // })
+    });
+  });
+  var $accordionPanel = $('.accordion_caption');
+  console.log($accordionPanel);
+  $accordionPanel.on('click', function () {
+    $(this).toggleClass('accordion_caption--active');
+  });
+});

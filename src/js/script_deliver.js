@@ -1,9 +1,37 @@
 $(function (){
 
-    var $tabsLinksTitle = $('.tabs_link_title');
-    var $tabsBlocksContent = $('.tabs_blocks_content');
-    console.log('$tabsBlocksContent', $tabsBlocksContent);
-    console.log('$tabsLinksTitle', $tabsLinksTitle);
+    const $searchTxt = $('.search_text');
+    const $searchBtn = $('.search_button');
+    console.log('$searchTxt', $searchTxt);
+    console.log('$searchBtn', $searchBtn);
+
+
+    $searchBtn.on('click', function(e){
+        e.preventDefault();
+        $searchTxt.removeClass('hidden')
+
+        $searchBtn.on('click', function(e){
+            e.preventDefault();
+            let $inputTxt = $searchTxt.val()
+            console.log('$inputTxt', $inputTxt);
+            
+        })
+
+        $searchBtn.dblclick(function(){
+            $searchTxt.val('')
+            $searchTxt.addClass('hidden')
+        })
+    })
+    
+    
+
+
+
+
+    const $tabsLinksTitle = $('.tabs_link_title');
+    const $tabsBlocksContent = $('.tabs_blocks_content');
+    /* console.log('$tabsBlocksContent', $tabsBlocksContent);
+    console.log('$tabsLinksTitle', $tabsLinksTitle); */
     
     
 

@@ -2884,6 +2884,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .search {
   display: flex;
+  justify-content: flex-end;
   position: relative; }
 
 .flex-end {
