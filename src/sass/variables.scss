@@ -9,7 +9,10 @@ $FontAwesomeB400:       'Font Awesome Brands 400', sans-serif;
 $FontAwesomeF400:       'Font Awesome Free 400', sans-serif;
 $FontAwesomeS900:       'Font Awesome Solid 900', sans-serif;
 
-
+$small:       "only screen and (max-width : 560px)";
+$mobile:       "only screen and (max-width : 768px)";
+$tablet:       "only screen and (max-width : 1200px)";
+$desktop:       "only screen and (max-width : 1920px)";
 
 
 // SASS SETTINGS
@@ -19,22 +22,22 @@ $grid-gutter-width: 30px;   //паддинг
 
 $grid-breakpoints: (
   // Extra small screen / phone
-  xs: 0,
+  xs: 320px,
   // Small screen / phone
-  sm: 320px,
+  sm: 560px,
   // Medium screen / tablet
   md: 768px,
   // Large screen / desktop
   lg: 1200px,
   // Extra large screen / wide desktop
-  xl: 1200px
+  xl: 1920px
 );
 
 $container-max-widths: (
-  sm: 340px,
-  md: 788px,
+  sm: 768px,
+  md: 1000px,
   lg: 1200px,
-  xl: 1200px
+  xl: 1920px
 );
 
 // SASS SETTINGS

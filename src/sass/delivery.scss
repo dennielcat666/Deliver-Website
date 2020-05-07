@@ -3,7 +3,7 @@
 
 .delivery {
     padding-bottom: 94px;
-    padding-top: 309px;
+    padding-top: 105px;
 }
 
 .tabs {
@@ -157,3 +157,27 @@
 .sub_form_input:not(:first-child) {
     margin-top: 10px;
 }
+
+.team {
+    text-align: center;
+}
+
+@media #{$mobile} {
+    .delivery {
+        padding-top: 65px;
+    }
+
+    .team {
+        margin-top: 20px;
+    }
+}
+
+/* @media (max-width: 768px) {
+    .delivery {
+        padding-top: 400px;
+    }
+
+    .team {
+        margin-top: 20px;
+    }
+} */

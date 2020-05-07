@@ -5,6 +5,14 @@
 .menu {
     background-color: $yellow;
 }
+
+.menu_img_block {
+    height: 42px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 .align-items-center {
     display: flex;
     align-items: center;
@@ -74,4 +82,30 @@
     border-radius: 50%;
     background-color: $red;
     border: none;
+}
+
+@media #{$mobile} {
+    .menu {
+        padding-bottom: 10px;
+    }
+
+    .flex-end {
+        justify-content: center;
+    }
+}
+
+@media #{$small} {
+
+    .menu_item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .menu_link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
 }

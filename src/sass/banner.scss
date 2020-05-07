@@ -86,3 +86,26 @@
     background-color: $yellow;
     color: $red;
 }
+
+
+@media #{$mobile} {
+    .banner_slog {
+        text-align: center;
+    }
+
+    .banner_slog::after {
+        margin: 40px auto;
+    }
+
+    .banner_text {
+        text-align: center;
+    }
+
+    .banner_steps {
+        text-align: center;
+    }
+
+    .banner_links_box {
+        text-align: center;
+    }
+}

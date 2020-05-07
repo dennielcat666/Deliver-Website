@@ -64,3 +64,29 @@
 .footer_list_link--hover_blue:hover {
     color: #017edf;
 }
+
+
+
+@media #{$small} {
+
+    .footer::before {
+        display: none;
+    }
+    
+    .footer::after {
+        display: none;
+    }
+
+    .footer_mardgin:not(:first-child) {
+        margin-top: 20px;
+    }
+
+    .footer_column_name {
+        text-align: center;
+    }
+
+    .footer_list {
+        text-align: center;
+    }
+
+}

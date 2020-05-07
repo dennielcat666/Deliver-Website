@@ -88,3 +88,27 @@
     background-color: $red;
     border: none;
 }
+
+@media #{$mobile} {
+    .select .fa-angle-down {
+        right: 35px;
+    }
+
+    .prof_sel .fa-angle-down {
+        right: 5px;
+    }
+}
+
+@media #{$small} {
+    .select .fa-angle-down {
+        right: 0;
+    }
+
+    .prof_sel .fa-angle-down {
+        right: 5px;
+    }
+}
+
+/* @media (max-width: px) {
+
+} */
