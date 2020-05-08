@@ -2710,6 +2710,12 @@ a.text-dark:hover, a.text-dark:focus {
   padding: 20px 30px 20px 30px;
   border-radius: 25px; }
 
-@media (max-width: 768px) {
-  .deliv_info_text {
-    margin-bottom: 20px; } }
+@media only screen and (max-width: 1199px) {
+  .flex-end.deliv_center {
+    margin-top: 20px;
+    justify-content: center; } }
+
+@media only screen and (max-width: 767px) {
+  .deliv_info {
+    padding-top: 50px;
+    padding-bottom: 50px; } }

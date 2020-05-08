@@ -99,6 +99,9 @@
 
 @media #{$mobile} {
 
+    .card_prov:not(:first-child) {
+        margin-top: 20px;
+    }
 
     .provision_card_name {
         line-height: 25px;
@@ -116,11 +119,3 @@
         margin-top: 10px;
     }
 }
-
-/* @media (max-width: 560px) {
-
-    .provision_box_name {
-        font-size: 30px;
-    }
-
-} */

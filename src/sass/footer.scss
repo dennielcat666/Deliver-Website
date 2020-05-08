@@ -66,6 +66,23 @@
 }
 
 
+@media #{$tablet} {
+
+    .footer_box {
+        padding-top: 20px;
+        padding-bottom: 50px;
+    }
+
+}
+
+@media #{$mobile} {
+
+    .footer_mardgin:not(:first-child) {
+        margin-top: 20px;
+    }
+
+}
+
 
 @media #{$small} {
 
@@ -76,11 +93,7 @@
     .footer::after {
         display: none;
     }
-
-    .footer_mardgin:not(:first-child) {
-        margin-top: 20px;
-    }
-
+    
     .footer_column_name {
         text-align: center;
     }

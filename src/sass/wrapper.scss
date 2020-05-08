@@ -7,6 +7,10 @@
     background-color: $red;
 }
 
+.wrapper_max-width {
+    max-width: 70px;
+}
+
 .select {
     position: relative;
 }
@@ -24,6 +28,7 @@
 
 .language_selection {
     border: none;
+    width: 100%;
     font-size: 14px;
     font-weight: 400;
     -webkit-appearance: none;/* Chrome */
@@ -89,26 +94,9 @@
     border: none;
 }
 
-@media #{$mobile} {
-    .select .fa-angle-down {
-        right: 35px;
-    }
-
-    .prof_sel .fa-angle-down {
-        right: 5px;
-    }
-}
-
 @media #{$small} {
-    .select .fa-angle-down {
-        right: 0;
-    }
-
-    .prof_sel .fa-angle-down {
-        right: 5px;
+    .my_flex-sm-center {
+        display: flex;
+        justify-content: center;
     }
 }
-
-/* @media (max-width: px) {
-
-} */

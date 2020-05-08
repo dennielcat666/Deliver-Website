@@ -87,6 +87,13 @@
     color: $red;
 }
 
+@media #{$tablet} {
+
+    .banner {
+        padding-top: 150px;
+    }
+}
+
 
 @media #{$mobile} {
     .banner_slog {

@@ -2696,3 +2696,7 @@ a.text-dark:hover, a.text-dark:focus {
 
 .title_img:hover {
   border: 2px solid #ba0000; }
+
+@media only screen and (max-width: 1199px) {
+  .title_margin:not(:first-child) {
+    margin-top: 10px; } }

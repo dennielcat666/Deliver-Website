@@ -162,22 +162,17 @@
     text-align: center;
 }
 
+@media #{$tablet} {
+
+    .team {
+        margin-top: 20px;
+    }
+    
+}
+
 @media #{$mobile} {
     .delivery {
         padding-top: 65px;
     }
 
-    .team {
-        margin-top: 20px;
-    }
 }
-
-/* @media (max-width: 768px) {
-    .delivery {
-        padding-top: 400px;
-    }
-
-    .team {
-        margin-top: 20px;
-    }
-} */

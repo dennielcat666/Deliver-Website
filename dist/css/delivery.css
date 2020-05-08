@@ -2813,18 +2813,10 @@ a.text-dark:hover, a.text-dark:focus {
 .team {
   text-align: center; }
 
-@media only screen and (max-width: 768px) {
-  .delivery {
-    padding-top: 65px; }
+@media only screen and (max-width: 1199px) {
   .team {
     margin-top: 20px; } }
 
-/* @media (max-width: 768px) {
-    .delivery {
-        padding-top: 400px;
-    }
-
-    .team {
-        margin-top: 20px;
-    }
-} */
+@media only screen and (max-width: 767px) {
+  .delivery {
+    padding-top: 65px; } }

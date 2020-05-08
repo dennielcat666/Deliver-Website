@@ -2735,13 +2735,20 @@ a.text-dark:hover, a.text-dark:focus {
 .footer_list_link--hover_blue:hover {
   color: #017edf; }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 1199px) {
+  .footer_box {
+    padding-top: 20px;
+    padding-bottom: 50px; } }
+
+@media only screen and (max-width: 767px) {
+  .footer_mardgin:not(:first-child) {
+    margin-top: 20px; } }
+
+@media only screen and (max-width: 559px) {
   .footer::before {
     display: none; }
   .footer::after {
     display: none; }
-  .footer_mardgin:not(:first-child) {
-    margin-top: 20px; }
   .footer_column_name {
     text-align: center; }
   .footer_list {

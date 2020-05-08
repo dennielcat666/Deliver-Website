@@ -2760,21 +2760,15 @@ a.text-dark:hover, a.text-dark:focus {
 .provision_card_item .fa-caret-right {
   color: #ffcc00; }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 767px) {
+  .card_prov:not(:first-child) {
+    margin-top: 20px; }
   .provision_card_name {
     line-height: 25px;
     font-size: 30px; } }
 
-@media only screen and (max-width: 560px) {
+@media only screen and (max-width: 559px) {
   .provision_box_name {
     font-size: 30px; }
   .card_prov:not(:first-child) {
     margin-top: 10px; } }
-
-/* @media (max-width: 560px) {
-
-    .provision_box_name {
-        font-size: 30px;
-    }
-
-} */

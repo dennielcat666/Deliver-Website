@@ -56,7 +56,6 @@
 .service_select_block {
     background-color: $red;
     color: #fff;
-    margin-left: 9px;
     padding: 30px;
 }
 
@@ -102,17 +101,33 @@
     border-radius: 25px;
 }
 
+@media #{$tablet} {
+
+    .service_block {
+        margin-top: 70px;
+    }
+    
+    .service_margin:last-child {
+        margin-top: 20px;
+    }
+}
+
 @media #{$mobile} {
 
     .service_box_name {
         text-align: center;
     }
 
-    .service_select_block {
-        margin-top: 20px;
-    }
-
     .flex-center {
         justify-content: center;
     }
+
+    .service_margin:last-child {
+        margin-top: 0;
+    }
+
+    .service_margin:not(:first-child) {
+        margin-top: 20px;
+    }
+
 }
