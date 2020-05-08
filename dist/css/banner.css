@@ -2772,3 +2772,13 @@ a.text-dark:hover, a.text-dark:focus {
     text-align: center; }
   .banner_links_box {
     text-align: center; } }
+
+@media only screen and (max-width: 559px) {
+  .banner_links_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .banner_link {
+    margin-right: 0; }
+  .banner_link:not(:first-child) {
+    margin-top: 20px; } }

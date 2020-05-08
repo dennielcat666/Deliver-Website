@@ -2777,8 +2777,7 @@ a.text-dark:hover, a.text-dark:focus {
   .menu_item {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    margin-left: 25px; }
+    text-align: center; }
   .menu_link {
     padding-top: 10px;
     padding-bottom: 10px; }
