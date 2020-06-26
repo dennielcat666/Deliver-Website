@@ -20,9 +20,6 @@ $(function () {
   });
   var $tabsLinksTitle = $('.tabs_link_title');
   var $tabsBlocksContent = $('.tabs_blocks_content');
-  /* console.log('$tabsBlocksContent', $tabsBlocksContent);
-  console.log('$tabsLinksTitle', $tabsLinksTitle); */
-
   $tabsLinksTitle.each(function (index) {
     $(this).on('click', function (e) {
       e.preventDefault();
@@ -38,11 +35,7 @@ $(function () {
         if (index === indexContent) {
           $(this).show();
         }
-      }); // $tabsLinksTitle.each(function (indexTitle) {
-      //     if (index === indexTitle) {
-      //         $(this).addClass('tabs_link--active');
-      //     }
-      // })
+      });
     });
   });
   var $accordionPanel = $('.accordion_caption');

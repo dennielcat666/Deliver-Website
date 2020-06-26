@@ -2377,8 +2377,6 @@
   font-weight: 300;
   font-style: italic; }
 
-/* @import './variables.scss'; */
-/* @import '../../node_modules/bootstrap-4-grid/scss/grid.scss'; */
 /*
  *  Owl Carousel - Core
  */
@@ -8102,7 +8100,6 @@ a.text-dark:hover, a.text-dark:focus {
   margin-right: 25px;
   margin-left: 45px;
   display: flex;
-  /* justify-content: space-around; */
   justify-content: space-between; }
 
 .menu_link {
