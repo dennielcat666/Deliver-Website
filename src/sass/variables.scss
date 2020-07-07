@@ -9,9 +9,10 @@ $FontAwesomeB400:       'Font Awesome Brands 400', sans-serif;
 $FontAwesomeF400:       'Font Awesome Free 400', sans-serif;
 $FontAwesomeS900:       'Font Awesome Solid 900', sans-serif;
 
-$small:       "only screen and (max-width : 559px)";
-$mobile:       "only screen and (max-width : 767px)";
-$tablet:       "only screen and (max-width : 1199px)";
+$xsmal:       "only screen and (max-width : 420px)";
+$small:       "only screen and (max-width : 560px)";
+$mobile:       "only screen and (max-width : 960px)";
+$tablet:       "only screen and (max-width : 1170px)";
 $desktop:       "only screen and (max-width : 1920px)";
 
 
@@ -26,16 +27,16 @@ $grid-breakpoints: (
   // Small screen / phone
   sm: 560px,
   // Medium screen / tablet
-  md: 768px,
+  md: 960px,
   // Large screen / desktop
-  lg: 1200px,
+  lg: 1170px,
   // Extra large screen / wide desktop
   xl: 1920px
 );
 
 $container-max-widths: (
-  sm: 768px,
-  md: 1000px,
-  lg: 1200px,
+  sm: 560px,
+  md: 960px,
+  lg: 1170px,
   xl: 1920px
 );

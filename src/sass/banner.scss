@@ -123,6 +123,9 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 30px;
+        padding-top: 10px;
+        padding-bottom: 10px;
     }
 
     .banner_link {
@@ -131,6 +134,10 @@
 
     .banner_link:not(:first-child) {
         margin-top: 20px;
+    }
+
+    .banner_steps {
+        line-height: 35px;
     }
 
 }
