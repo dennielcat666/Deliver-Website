@@ -17,7 +17,12 @@ https://dennielcat666.github.io/Deliver-Website/dist/index.html
 
 Есть.
 
+## Стек
 
+1. Gulp
+2. SASS
+3. jQuery
+4. Babel
 
 ### Зависимости
 ```bash
