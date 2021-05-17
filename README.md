@@ -1,9 +1,9 @@
 # Deliver-Website
 
 ### GitHub Pages
-```bash
+
 https://dennielcat666.github.io/Deliver-Website/dist/index.html
-```
+
 
 ## Блок меню
 
